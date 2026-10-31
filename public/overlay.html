@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Chùa Online – Overlay 9:16</title>
+<link rel="stylesheet" href="css/motion.css"><link rel="stylesheet" href="css/overlay.css"></head>
+<body>
+<div id="stage" aria-label="Điện thờ Chùa Online">
+  <div id="scene"></div>
+  <div id="devotees"></div>
+  <div id="fx"></div>
+  <div id="hud">
+    <div class="pill" id="pillLive"><i class="dot"></i><span id="liveTxt">LIVE</span></div>
+    <div class="pill" id="pillStat">🔥 <b id="incense">0</b> hương · ✨ <b id="merit">0</b> CĐ</div>
+  </div>
+  <div id="signbox" class="pill hidden"></div>
+  <div id="toasts"></div>
+  <div id="bar" class="pill">🙏 <b id="topName">—</b> · ✨ Công đức: <b id="topMerit">0</b></div>
+  <div id="cards">
+    <div class="card"><small>1 COIN / CMT</small><span>🔥 Dâng hương</span></div>
+    <div class="card"><small>5 COINS / TIM</small><span>🏮 Cầu phúc</span></div>
+    <div class="card"><small>10+ COINS</small><span>🪷 Hoa sen</span></div>
+  </div>
+  <div id="board"><h4>TẤM LÒNG THÀNH</h4><ol id="boardList"></ol></div>
+  <div id="flash"></div><div id="banner" class="hidden"></div>
+  <button id="unlock" class="hidden">🔔 Bấm để bật âm thanh</button>
+</div>
+<script src="/socket.io/socket.io.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/overlay.js"></script>
+</body></html>

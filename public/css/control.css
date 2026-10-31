@@ -1,0 +1,32 @@
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:#120707;color:#f9e8c6;font:600 13px/1.3 "Segoe UI","DejaVu Sans",Arial,sans-serif}
+main{display:flex;gap:22px;justify-content:center;align-items:flex-start;padding:18px}
+#preview{height:min(92vh,960px);aspect-ratio:9/16;border:2px solid #b68940;border-radius:20px;overflow:hidden;background:#000;flex:none}
+#preview iframe{width:100%;height:100%;border:0}
+#panel{width:380px;flex:none;padding:18px 16px 16px;background:url(../assets/ui/bang_dieu_khien.webp) center/100% 100% no-repeat;display:flex;flex-direction:column;gap:12px}
+header{display:flex;align-items:center;justify-content:space-between;gap:10px;border-bottom:1px solid #6a4a28;padding-bottom:12px}
+h1{margin:0;font:800 19px/1.15 "Segoe UI",Arial,sans-serif;color:#ffe3a0}header img{width:112px;display:block}
+.box{padding:12px 14px 14px;border-radius:14px;display:flex;flex-direction:column;gap:9px}
+.box-audio{background:url(../assets/ui/khung_am_thanh.webp) center/100% 100% no-repeat}.box-conn{background:url(../assets/ui/khung_ket_noi.webp) center/100% 100% no-repeat}
+.box-rpc{background:url(../assets/ui/khung_nghi_le.webp) center/100% 100% no-repeat}
+h2{margin:0 0 2px;font:800 11.5px/1.2 "Segoe UI",Arial,sans-serif;letter-spacing:.7px;color:#e9c77d}
+.ib{border:0;background:none;padding:0;cursor:pointer;display:block}.ib img{width:100%;display:block;transition:transform .08s,filter .15s}
+.ib:hover img{filter:brightness(1.12)}.ib:active img,.tg:active{transform:scale(.96)}
+.box-audio>.ib img{width:100%}.row2{display:flex;gap:8px}.row2>*{flex:1}.conn{align-items:center}.conn .ib{flex:0 0 38%}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.in{width:100%;height:36px;padding:0 12px;border-radius:9px;border:1px solid #6a4a28;background:url(../assets/ui/o_nhap_trong.webp) center/100% 100% no-repeat;color:#fff0cc;font:600 13px "Segoe UI",Arial,sans-serif;outline:0}
+.in:focus{border-color:#f6d27e}
+.tg{height:42px;border-radius:10px;border:1px solid #c79a50;color:#ffe9b8;font:800 12.5px "Segoe UI",Arial,sans-serif;cursor:pointer;transition:transform .08s,filter .15s}.tg.wide{width:100%}
+.tg.on{background:url(../assets/ui/nut_trong_green.webp) center/100% 100% no-repeat}.tg.off{background:url(../assets/ui/nut_trong_red.webp) center/100% 100% no-repeat}
+.tg.gold{background:url(../assets/ui/nut_trong_gold.webp) center/100% 100% no-repeat;color:#2a1608}.tg:hover{filter:brightness(1.12)}
+.sl{display:block;font-size:12px}.sl b{float:right;color:#f6d27e}
+input[type=range]{width:100%;margin:6px 0 0;appearance:none;height:6px;border-radius:4px;background:linear-gradient(90deg,#f6d27e var(--v,50%),#4a3320 var(--v,50%))}
+input[type=range]::-webkit-slider-thumb{appearance:none;width:16px;height:16px;border-radius:50%;background:#f6d27e;border:2px solid #7a4a10;cursor:pointer}
+.status{font-size:11.5px;color:#d8b676;min-height:15px}.link{background:none;border:0;color:#b8966a;cursor:pointer;font:600 11.5px "Segoe UI",Arial,sans-serif;align-self:flex-end}
+@media(max-width:860px){main{flex-direction:column;align-items:center}#preview{height:auto;width:min(94vw,420px)}#panel{width:min(94vw,420px)}}
+
+.row2>*{min-width:0}.conn .ib{flex-basis:82px}
+#panel{border:1px solid #74502e;border-radius:22px;background-color:#1b0907}
+.grid .tg{height:56px}.in{font-size:13px;line-height:1.4}
+button:focus-visible,a:focus-visible{outline:2px solid #ffe1a0;outline-offset:3px}
+@media(max-width:420px){main{padding:10px}#panel{padding:14px 10px}h1{font-size:17px}.box{padding:12px 10px}}

@@ -1,0 +1,27 @@
+{
+  "actions": {
+    "incense":  { "label": "Thắp 3 nén hương",   "icon": "🔥", "merit": 1,   "say": "thắp ba nén hương",            "fx": "12_thap_huong" },
+    "bless":    { "label": "Cầu phúc",            "icon": "🙏", "merit": 5,   "say": "cầu phúc",                      "fx": "23_hat_sang" },
+    "lantern":  { "label": "Thả đèn hoa đăng",   "icon": "🏮", "merit": 5,   "say": "thả đèn hoa đăng",              "fx": "13_tha_hoa_dang" },
+    "woodfish": { "label": "Gõ mõ",               "icon": "🪘", "merit": 5,   "say": "gõ mõ",                         "fx": "16_go_mo" },
+    "bell":     { "label": "Thỉnh chuông chùa",   "icon": "🔔", "merit": 3,   "say": "thỉnh chuông",                  "fx": "15_thinh_chuong" },
+    "fortune":  { "label": "Xin xăm / Gieo quẻ",  "icon": "🎋", "merit": 2,   "say": "xin xăm",                       "fx": "17_xin_xam" },
+    "lotus":    { "label": "Dâng hoa sen vàng",   "icon": "🪷", "merit": 10,  "say": "dâng hoa sen vàng",             "fx": "14_dang_hoa_sen" },
+    "fruit":    { "label": "Dâng mâm ngũ quả",    "icon": "🍎", "merit": 15,  "say": "dâng mâm ngũ quả",              "fx": "18_dang_trai_cay" },
+    "dragon":   { "label": "Đại Lễ Kim Long Chầu Phật", "icon": "🐉", "merit": 100, "say": "dâng đại lễ Kim Long Chầu Phật", "fx": "19_sen_no" }
+  },
+  "giftMap": { "Rose": "incense", "Finger Heart": "bless", "Bouquet": "lotus", "Donut": "bell",
+               "Hand Hearts": "fruit", "Corgi": "fortune", "Money Gun": "lantern", "Lion": "dragon" },
+  "unknownGift": { "dragonMinDiamonds": 100, "lotusMinDiamonds": 10, "else": "incense" },
+  "likesPerBless": 5,
+  "maxDevotees": 40,
+  "fortunes": [
+    "Thượng Thượng Cát — vạn sự hanh thông, quý nhân phù trợ.",
+    "Thượng Cát — công danh rộng mở, gia đạo bình an.",
+    "Trung Cát — kiên nhẫn sẽ gặt quả ngọt.",
+    "Trung Bình — chậm mà chắc, đừng nóng vội.",
+    "Hạ Cát — cẩn trọng lời nói, tránh tranh chấp."
+  ],
+  "fakeNames": ["Tiến Trương","Anh Thơ 1227","Quỳnh_Finn","Minh Anh","Ngọc Trâm","Lan Phương","Thu Hà","Quang Huy","Bảo Ngọc","Hải Đăng"],
+  "fakeWishes": ["Cầu cho gia đình bình an","Cầu tài lộc hanh thông","Cầu sức khoẻ cho cha mẹ","Cầu thi cử đỗ đạt","Chúc mọi người an lạc"]
+}

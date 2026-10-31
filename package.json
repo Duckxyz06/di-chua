@@ -1,0 +1,21 @@
+{
+  "name": "chua-online-live",
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "assets": "python3 scripts/prepare_assets.py --elements ../Bo_element_dien_tho_59_PNG.zip --animations ../Bo_animation_dien_tho_24_hieu_ung.zip --out public",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5",
+    "tiktok-live-connector": "2.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "overrides": {
+    "@openapitools/openapi-generator-cli": "2.15.0"
+  }
+}

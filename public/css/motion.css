@@ -1,0 +1,11 @@
+/* Có thể dùng độc lập với element PNG và chữ HTML của bạn. */
+@keyframes temple-pop{0%{opacity:0;transform:translateY(18px) scale(.9)}20%,80%{opacity:1;transform:translateY(0) scale(1)}100%{opacity:0;transform:translateY(-10px)}}
+@keyframes temple-ticker{from{transform:translateX(110%)}to{transform:translateX(-110%)}}
+@keyframes temple-contribution{0%{opacity:0;transform:translateY(35px)}20%,70%{opacity:1}100%{opacity:0;transform:translateY(-65px)}}
+@keyframes temple-halo{to{transform:rotate(360deg)}}
+@keyframes temple-breathe{0%,100%{opacity:.7;transform:scale(.96)}50%{opacity:1;transform:scale(1.04)}}
+@keyframes temple-float{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-12px) rotate(2deg)}}
+@keyframes temple-shake{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-7deg)}40%,80%{transform:rotate(7deg)}}
+@keyframes temple-tap{0%,100%{transform:scale(1)}35%{transform:scale(.93)}65%{transform:scale(1.03)}}
+.motion-pop{animation:temple-pop 3s both}.motion-ticker{animation:temple-ticker 8s linear infinite}.motion-contribution{animation:temple-contribution 2.4s both}.motion-halo{animation:temple-halo 30s linear infinite}.motion-breathe{animation:temple-breathe 3s ease-in-out infinite}.motion-float{animation:temple-float 3s ease-in-out infinite}.motion-shake{animation:temple-shake .6s ease-in-out}.motion-tap{animation:temple-tap .4s ease-out}
+@media(prefers-reduced-motion:reduce){[class*="motion-"]{animation:none}}

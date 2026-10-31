@@ -1,0 +1,265 @@
+{
+ "decor": {
+  "tuong_phat": [
+   585,
+   640
+  ],
+  "hao_quang": [
+   700,
+   674
+  ],
+  "dai_sen": [
+   800,
+   400
+  ],
+  "ban_tho": [
+   1000,
+   366
+  ],
+  "binh_hoa_sen": [
+   280,
+   420
+  ],
+  "den_long_treo": [
+   200,
+   300
+  ],
+  "den_tho_chan_cao": [
+   200,
+   300
+  ],
+  "lu_huong": [
+   520,
+   347
+  ],
+  "nen_huong": [
+   133,
+   200
+  ],
+  "nen_dien_tho": [
+   941,
+   1672
+  ],
+  "tham_do": [
+   1000,
+   667
+  ],
+  "nguoi_quy": [
+   260,
+   300
+  ],
+  "chuong_chua": [
+   420,
+   384
+  ],
+  "mo_go": [
+   420,
+   350
+  ],
+  "ong_xin_xam": [
+   173,
+   260
+  ],
+  "den_hoa_dang": [
+   420,
+   280
+  ],
+  "mam_trai_cay": [
+   420,
+   315
+  ]
+ },
+ "ui": {
+  "bang_dieu_khien": [
+   888,
+   2016
+  ],
+  "bang_tam_long_thanh": [
+   528,
+   276
+  ],
+  "bo_dem": [
+   408,
+   55
+  ],
+  "huy_hieu_live": [
+   432,
+   55
+  ],
+  "khung_am_thanh": [
+   792,
+   540
+  ],
+  "khung_dien_tho_trong": [
+   648,
+   1152
+  ],
+  "khung_ket_noi": [
+   792,
+   336
+  ],
+  "khung_nghi_le": [
+   792,
+   840
+  ],
+  "khung_xep_hang_trong": [
+   528,
+   264
+  ],
+  "nhan_ten_mau": [
+   360,
+   55
+  ],
+  "nhan_ten_trong": [
+   360,
+   55
+  ],
+  "nut_bat_am_thanh": [
+   720,
+   108
+  ],
+  "nut_dai_le": [
+   720,
+   108
+  ],
+  "nut_dang_hoa_sen": [
+   360,
+   108
+  ],
+  "nut_gia_lap_nguoi_xem": [
+   720,
+   108
+  ],
+  "nut_giong_doc_bat": [
+   360,
+   108
+  ],
+  "nut_go_mo": [
+   360,
+   108
+  ],
+  "nut_ket_noi": [
+   360,
+   108
+  ],
+  "nut_mo_admin": [
+   360,
+   108
+  ],
+  "nut_nhac_nen_bat": [
+   360,
+   108
+  ],
+  "nut_tha_den_hoa_dang": [
+   360,
+   108
+  ],
+  "nut_thap_3_nen_huong": [
+   360,
+   108
+  ],
+  "nut_thinh_chuong": [
+   360,
+   108
+  ],
+  "nut_trong_gold": [
+   528,
+   108
+  ],
+  "nut_trong_green": [
+   528,
+   108
+  ],
+  "nut_trong_red": [
+   528,
+   108
+  ],
+  "nut_xin_xam": [
+   360,
+   108
+  ],
+  "o_loi_cau": [
+   744,
+   108
+  ],
+  "o_nhap_trong": [
+   744,
+   86
+  ],
+  "o_tai_khoan": [
+   744,
+   86
+  ],
+  "o_ten_nguoi_cau": [
+   744,
+   86
+  ],
+  "thanh_am_luong_giong_doc": [
+   744,
+   102
+  ],
+  "thanh_am_luong_nhac_nen": [
+   744,
+   102
+  ],
+  "thanh_cong_duc": [
+   816,
+   66
+  ],
+  "the_cau_phuc": [
+   264,
+   174
+  ],
+  "the_dang_huong": [
+   264,
+   174
+  ],
+  "the_hoa_sen": [
+   264,
+   174
+  ],
+  "the_vat_pham_trong": [
+   264,
+   174
+  ],
+  "tieu_de_am_thanh": [
+   912,
+   78
+  ],
+  "tieu_de_dieu_khien": [
+   912,
+   78
+  ],
+  "tieu_de_ket_noi": [
+   912,
+   78
+  ],
+  "tieu_de_nghi_le": [
+   912,
+   78
+  ]
+ },
+ "fx": {
+  "12_thap_huong": 480888,
+  "13_tha_hoa_dang": 974400,
+  "14_dang_hoa_sen": 706232,
+  "15_thinh_chuong": 2296358,
+  "16_go_mo": 1615244,
+  "17_xin_xam": 1151890,
+  "18_dang_trai_cay": 789796,
+  "19_sen_no": 833556,
+  "22_tia_sang": 251312,
+  "23_hat_sang": 36312,
+  "24_khoi_huong": 349658
+ },
+ "sprites": {
+  "walk": {
+   "frames": 8,
+   "frame_px": 256
+  },
+  "bow": {
+   "frames": 8,
+   "frame_px": 256
+  }
+ }
+}

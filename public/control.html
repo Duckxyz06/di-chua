@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Chùa Online – Điều khiển Live & RPC</title><link rel="stylesheet" href="css/control.css"></head>
+<body>
+<main>
+  <section id="preview"><iframe src="overlay.html?clean=1&mute=1" title="Xem trước overlay"></iframe></section>
+  <aside id="panel">
+    <header><h1>🎛️ Điều Khiển Live &amp; RPC</h1><a href="admin.html" target="_blank"><img src="assets/ui/nut_mo_admin.webp" alt="Mở Admin Đầy Đủ ↗"></a></header>
+
+    <section class="box box-audio"><h2>🔊 ÂM THANH CHÙA &amp; GIỌNG ĐỌC KHẤN</h2>
+      <button class="ib" id="btnAudio"><img src="assets/ui/nut_bat_am_thanh.webp" alt="Bật Âm Thanh Chùa & Giọng Đọc"></button>
+      <div class="row2"><button class="tg on" id="tgVoice">🎙️ Giọng Đọc: BẬT</button><button class="tg on" id="tgMusic">🎵 Nhạc Nền: BẬT</button></div>
+      <label class="sl">🎵 Âm lượng Nhạc nền <b id="vMusic">89%</b><input type="range" id="rMusic" min="0" max="100" value="89"></label>
+      <label class="sl">🎙️ Âm lượng Giọng đọc <b id="vVoice">86%</b><input type="range" id="rVoice" min="0" max="100" value="86"></label>
+    </section>
+
+    <section class="box box-conn"><h2>📡 KẾT NỐI PHÒNG TIKTOK LIVE</h2>
+      <div class="row2 conn"><input class="in" id="user" placeholder="@username" aria-label="Tài khoản TikTok"><button class="ib" id="btnConnect"><img src="assets/ui/nut_ket_noi.webp" alt="Kết Nối"></button></div>
+      <button class="tg off wide" id="tgSim">🤖 Tự động Giả lập Người Xem: TẮT</button>
+      <button class="link" id="btnDisconnect">Ngắt kết nối LIVE</button>
+      <div id="status" class="status" aria-live="polite">Chưa kết nối</div>
+    </section>
+
+    <section class="box box-rpc"><h2>🙏 KÍCH HOẠT NGHI THỨC TƯƠNG TÁC (RPC)</h2>
+      <input class="in" id="name" value="Quỳnh_Finn" aria-label="Tên người cầu">
+      <input class="in" id="wish" value="Cầu cho gia đình bình an, mọi người an lạc" aria-label="Lời cầu">
+      <div class="grid">
+        <button class="ib" data-a="incense"><img src="assets/ui/nut_thap_3_nen_huong.webp" alt="Thắp 3 Nén Hương"></button>
+        <button class="ib" data-a="lantern"><img src="assets/ui/nut_tha_den_hoa_dang.webp" alt="Thả Đèn Hoa Đăng"></button>
+        <button class="ib" data-a="woodfish"><img src="assets/ui/nut_go_mo.webp" alt="Gõ Mõ (+5)"></button>
+        <button class="ib" data-a="bell"><img src="assets/ui/nut_thinh_chuong.webp" alt="Thỉnh Chuông Chùa"></button>
+        <button class="ib" data-a="fortune"><img src="assets/ui/nut_xin_xam.webp" alt="Xin Xăm / Gieo Quẻ"></button>
+        <button class="ib" data-a="lotus"><img src="assets/ui/nut_dang_hoa_sen.webp" alt="Dâng Hoa Sen Vàng"></button>
+        <button class="tg off" data-a="bless">🙏 Cầu phúc</button>
+        <button class="tg off" data-a="fruit">🍎 Dâng mâm ngũ quả</button>
+      </div>
+      <button class="tg gold wide" data-a="dragon">🐉 Đại Lễ Kim Long Chầu Phật (Quà Lớn)</button>
+      <p class="status">Giả lập chỉ dùng kiểm thử cục bộ; không tạo người xem trên LIVE.</p>
+      <button class="link" id="btnReset">↺ Reset công đức</button>
+    </section>
+  </aside>
+</main>
+<script src="/socket.io/socket.io.js"></script><script src="js/audio.js"></script><script src="js/control.js"></script>
+</body></html>
